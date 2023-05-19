@@ -1,0 +1,286 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    z-index: -2;
+}
+/* top css */
+.top
+{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.top ul 
+{
+    display: flex;
+}
+.top ul li{
+    margin: 3px 34px;
+    list-style: none;
+    padding:12px 23px;
+    border-radius: 30px;
+    font-family: 'Bree Serif',serif;
+}
+.top ul li:hover{
+    background-color:  rgb(48, 47, 47);;
+    cursor: pointer;
+}
+.top ul li a
+{
+    text-decoration: none;
+    color:white;
+} 
+.top ul li a img{
+    height: 17px;
+    width: 17px;
+    margin-top: 4px;
+    filter: invert(100%);
+}
+.top ul li:nth-child(4)
+{
+    position: relative;
+    left: 700px;
+}
+.top ul li:last-child
+{
+    position: relative;
+    left: 480px;
+}
+#toplogo
+{
+    width: 30px;
+    height: 30px;
+    margin: 16px;
+}
+/* Search css */
+.search
+{
+    border-radius: 10px;
+    position: fixed;
+    z-index: 2;
+    width: 49%;
+    margin: 7px 6px;
+    background-color:  rgb(34, 33, 33);
+
+}
+.search input
+{ 
+    border: 2px solid  rgb(41, 41, 41);;
+    border-radius: 10px;
+    background-color: rgb(22, 22, 22);
+    width: 92%;
+    height: 35px;
+    margin: 16px 3px;
+    color: white;
+    font-size: 16px;
+}
+#search
+{
+    border-radius: 10px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin: 3px 6px -11px 3px;
+    filter: invert(100%);
+}
+#search:hover
+{
+    background-color: grey;
+}
+/* container CSS*/
+.container
+{
+    position: relative;
+    top: 54px;
+    background-color: black;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.circle
+{
+    background: url(/img/DpNone.png)no-repeat center center/cover;
+    border-radius:50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+.circle:hover
+{
+    cursor: pointer;
+}
+.contacts ul
+{
+    position: relative;
+    top: 80px;
+}
+.contacts ul li a:hover
+{
+    cursor: pointer;
+}
+.contacts 
+{
+    background-color: black
+}
+.contacts ul li 
+{
+    color: white;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(48, 47, 47);
+    padding: 12px;
+    font-family: "Baloo Bhai" , "cursive";
+}
+.contacts ul li a
+{
+    padding: 17px 12px;
+}
+/* chat css */
+.chats
+{
+    z-index: 1;
+    position: fixed;
+    left: 680px;
+    background-color: rgb(48, 47, 47);
+    border-radius: 10px;
+    width: 50%;
+    height: 100%;
+}
+
+.person
+{
+    color: white;
+    display: flex;
+}
+.name
+{
+    padding: 2px 10px;
+}
+.name ul li
+{
+    display: flex;
+}
+.name ul li a
+{
+    padding: 12px 5px;
+    margin: 8px 0px;
+    font-size: 20px;
+    font-family: "Baloo Bhai" , "cursive";
+}
+.name ul li a:hover
+{
+    cursor: pointer;
+}
+.name .circle
+{
+    margin-top: 7px;
+    height: 60px;
+    width: 60px;
+}
+.call img
+{
+    height: 30px;
+    width: 30px;
+    filter: invert(100%);
+}
+.call img:hover
+{
+    cursor: pointer;
+}
+.call
+{
+    position: relative;
+    left: 430px;
+    border-radius: 10px;
+    padding: 0px 5px;
+    margin: 21px 0px;
+}
+.call:hover
+{
+    background-color: grey;
+}
+
+/* DM css */
+.DM
+{
+    background: url(/img/chatbackgroud.png)no-repeat center center/cover;
+    filter: invert(100%);
+    width: 96%;
+    height: 70%;
+    margin-left: 10px;
+}
+.mess
+{
+    position: relative;
+    left: 215px;
+    width: 35%;
+    height: 15%;
+    filter: invert(100%);
+    background-color: rgb(0, 120, 201);
+    text-align: center;
+    opacity: .2;
+    color: white;
+}
+.mess p
+{
+    position: relative;
+    top: 25px;
+}
+.textbox
+{
+    width: 96%;
+    height: 40px;
+    background-color:rgb(48, 47, 47);
+    border-radius: 10px;
+    margin: 0px 9px;
+
+}
+#emoji
+{
+    cursor: pointer;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin: 0px 5px 11px 4px;
+    filter: invert(100%);
+    position: relative;
+    top: 5px;
+}
+#emoji:hover
+{
+    background-color: grey;
+}
+#more
+{
+    position: relative;
+    border-radius: 10px;
+    bottom: 10px;
+    height: 25px;
+    width: 25px; 
+    cursor: pointer;  
+    filter: invert(100%);
+}
+#more:hover
+{
+    background-color: grey;
+}
+.textdm input
+{
+    position: relative;
+    bottom: 17px;
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    margin: 6px 6px 14px 5px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+}

@@ -1,0 +1,146 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+/* top css */
+.top
+{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.top ul 
+{
+    display: flex;
+}
+.top ul li{
+    margin: 3px 34px;
+    list-style: none;
+    padding:12px 23px;
+    border-radius: 30px;
+    font-family: 'Bree Serif',serif;
+}
+.top ul li:hover{
+    background-color:  rgb(48, 47, 47);;
+    cursor: pointer;
+}
+.top ul li a
+{
+    text-decoration: none;
+    color:white;
+} 
+.top ul li a img{
+    height: 17px;
+    width: 17px;
+    margin-top: 4px;
+    filter: invert(100%);
+}
+.top ul li:last-child
+{
+    position: relative;
+    left: 730px;
+}
+#toplogo
+{
+    width: 30px;
+    height: 30px;
+    margin: 16px;
+}
+/* stutus container */
+.circle
+{
+    background: url(/img/DpNone.png)no-repeat center center/cover;
+    border-radius:50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    border: 4px solid green;
+}
+.circle:active
+{
+    border: 4px solid gray;
+}
+.circle:hover
+{
+    cursor: pointer;
+}
+
+.statusContainer
+{
+    display: flex;
+    position: relative;
+    top: 45px;
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    justify-content: center;
+}
+
+/* search css */
+.search
+{
+    border-radius: 10px;
+    position: fixed;
+    z-index: 2;
+    width: 49%;
+    margin: 10px 6px;
+    background-color:  rgb(34, 33, 33);
+
+}
+.search input
+{ 
+    border: 2px solid  rgb(41, 41, 41);;
+    border-radius: 10px;
+    background-color: rgb(22, 22, 22);
+    width: 92%;
+    height: 35px;
+    margin: 16px 3px;
+    color: white;
+    font-size: 16px;
+}
+#search
+{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin: 3px 6px -11px 3px;
+    filter: invert(100%);
+}
+
+
+/* satusDeck css */
+.statusDeck
+{
+    width: 50%;
+}
+.statusDeck ul
+{
+    position: relative;
+    top: 80px;
+}
+.statusDeck ul li a:hover
+{
+    cursor: pointer;
+}
+.statusDeck 
+{
+    background-color: black
+}
+.statusDeck ul li 
+{
+    color: white;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(48, 47, 47);
+    padding: 12px;
+    font-family: "Baloo Bhai" , "cursive";
+}
+.statusDeck ul li a
+{
+    padding: 17px 12px;
+}
